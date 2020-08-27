@@ -44,7 +44,7 @@ background: radial-gradient(ellipse at center, rgba(76,76,76,1) 0%, rgba(43,43,4
   transform: scale(0.9) translate(30px,30px);
   opacity: 0;
   visibility: hidden;
-/*   border-radius: 5px; */
+   border-radius: 5px; 
   display: none;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -187,10 +187,10 @@ input.add-event-edit:-ms-input-placeholder {
 .event-btn--cancel:hover{
   box-shadow: 0px 2px 4px rgba(2,2,2,0.2);
 }
-/* .add-event-btn:hover, .add.event-btn:focus{
+ .add-event-btn:hover, .add.event-btn:focus{
   background: #00258e;
   box-shadow: 0px -1px 2px rgba(3,2,2,0.2);
-} */
+} 
 .day-highlight .day-events-link{
   border-bottom: 2px solid #222;
   padding: 0;
@@ -255,8 +255,8 @@ input.add-event-edit:-ms-input-placeholder {
 .day-event-list-ul li {
   padding: 10px;
   margin: 10px 0;
-/*   background: #04b6e2; */
-/*   box-shadow: 0px 1px 1px  rgba(2,2,2,0.5); */
+   background: #04b6e2; 
+   box-shadow: 0px 1px 1px  rgba(2,2,2,0.5); 
   position: relative;
 }
 .event-dates small{
@@ -269,7 +269,7 @@ input.add-event-edit:-ms-input-placeholder {
   color: #04b6e2;
   font-size: 18px;
   text-transform: lowercase;
-/*   position: relative; */
+   position: relative; 
 }
 .event-delete{
   position: absolute;
