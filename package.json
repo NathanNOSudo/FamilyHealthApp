@@ -4,7 +4,8 @@
   "description": "Full Stack project for Digital Crafts created by Nargiza Ozek, Kety Cossey, Bailey Warrick, Ian Sear and Alejandra Guzman",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "bcrypt": "^3.0.7",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "date-format-lite": "^17.7.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
